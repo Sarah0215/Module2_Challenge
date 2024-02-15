@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Sub year_stock():
     'worksheets is an array of sheets
     For Each ws In Worksheets
@@ -26,7 +25,7 @@ Sub year_stock():
     'Set an initial variable for yearly change and percent change as double
      Dim Yearly_Change, Percent_Change As Double
      
-    'Set an initial variables for total stock volume
+    'Set an initial variable for total stock volume
      Dim Total_Stock As Double
     
     'Keep track of the location for each ticker in the summary table
